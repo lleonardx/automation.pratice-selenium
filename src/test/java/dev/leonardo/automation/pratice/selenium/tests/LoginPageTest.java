@@ -1,5 +1,4 @@
 package dev.leonardo.automation.pratice.selenium.tests;
-
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
@@ -21,7 +20,6 @@ class LoginPageTest {
 	void tearDown() throws Exception {
 		loginPage.quitWebDriver();
 	}
-
 	@Test
 	void test() {
 		//when
@@ -30,7 +28,5 @@ class LoginPageTest {
 		//then
 		Assertions.assertTrue(this.loginPage.getTagMessege().equals("dev leonardo"));
 		Assertions.assertFalse(this.loginPage.getCurrentUrl().equals(this.URL));
-		
 	}
-
 }

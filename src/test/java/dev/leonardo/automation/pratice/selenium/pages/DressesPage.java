@@ -1,5 +1,4 @@
 package dev.leonardo.automation.pratice.selenium.pages;
-
 import org.openqa.selenium.By;
 
 public class DressesPage extends BasePage {
@@ -15,11 +14,7 @@ public class DressesPage extends BasePage {
 			System.out.println("menu to add cart was not found");
 		}
 	}
-	
 	public String getTitlePage() {
 		return super.getText(titlePageDressLocator);
 	}
-	
-	
-
 }

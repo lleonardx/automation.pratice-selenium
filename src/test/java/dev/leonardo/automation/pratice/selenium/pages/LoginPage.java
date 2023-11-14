@@ -1,10 +1,9 @@
 package dev.leonardo.automation.pratice.selenium.pages;
-
+ 
 import org.openqa.selenium.By;
 
 public class LoginPage extends BasePage {
 	//Locator Email, Password and Button
-	
 	private By emailAdressLocator = By.name("email");
 	private By passwordLocator = By.name("password");
 	private By clickButtonLocator = By.xpath("//*[@id=\"form\"]/div/div/div[1]/div/form/button");
@@ -19,13 +18,7 @@ public class LoginPage extends BasePage {
 			System.out.println("email textbox was not present");
 		}
 	}
-	
 	public String getTagMessege() {
 		return super.getText(tagMessageLocator);
 	}
-	
-	
-	
-	
-
 }
