@@ -18,7 +18,7 @@ class RegisterPageTest {
 	}
 	@AfterEach
 	void tearDown() throws Exception {
-		//this.registerPage.quitWebDriver();
+		this.registerPage.quitWebDriver();
 	}
 	
 	@Test
