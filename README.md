@@ -6,7 +6,7 @@
 
 <h3>Features</h3>
 <ol>
-	<li>Configuração de Testes Selenium WebDriver + Java</li>
+	<li><code>Configuração de Testes Selenium WebDriver + Java</code></li>
 	<li><code>WebDriver</code></li>
 	<li><code>Actions</code></li>
 	<li><code>WebDriverWait</code></li>
